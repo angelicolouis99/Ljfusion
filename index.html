@@ -1,41 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset='UTF-8'>
-<title>LJFUSION — Final Single Page</title>
-<style>
-body{background:#000;color:#ffd67b;font-family:Arial;padding:20px;}
-.section{padding:20px;margin-bottom:20px;border-radius:12px;background:rgba(255,255,255,0.05);border:1px solid #333;}
-h1{color:#ffcc66;}
-</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LJ Fusion</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>LJFUSION — Single Page Final Version</h1>
+<header>
+  <h1>LJ FUSION</h1>
+  <p>Dashboard – Points – Messages – Emploi du temps</p>
+</header>
 
-<div class='section'>
-<h2>LOGIN PAGE</h2>
-<p>Email + Password + Role (Admin/Mpiasa)</p>
-</div>
+<section id="dashboard">
+  <h2>Dashboard</h2>
+  <div class="card">Total Points: 0</div>
+  <div class="card">Bonus: 0 Ar</div>
+  <div class="card">Présence: 0%</div>
+</section>
 
-<div class='section'>
-<h2>ADMIN DASHBOARD</h2>
-<p>CRUD Employees, Bonus, Logs, Messages</p>
-</div>
+<section id="messages">
+  <h2>Messagerie</h2>
+  <div class="chat-box">
+    <div class="msg admin">Admin: Tongasoa ato amin’ny LJ Fusion!</div>
+    <div class="msg user">Mpiasa: Misaotra tompoko.</div>
+  </div>
+  <input placeholder="Soraty eto..." />
+</section>
 
-<div class='section'>
-<h2>EMPLOYEE DASHBOARD</h2>
-<p>Profile, Presence, Points, Chat</p>
-</div>
-
-<div class='section'>
-<h2>CHAT SYSTEM</h2>
-<p>Group Chat + Private Chat + Delete Options</p>
-</div>
-
-<div class='section'>
-<h2>PLANNING</h2>
-<p>Lundi — Dimanche : 08h → 19h</p>
-</div>
-
+<script src="app.js"></script>
 </body>
 </html>

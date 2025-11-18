@@ -1,0 +1,6 @@
+body { font-family: Arial; background:#111; color:#fff; margin:0; padding:0; }
+header { text-align:center; padding:20px; background:#000; }
+.card { background:#222; padding:15px; margin:10px; border-radius:10px; }
+.chat-box { background:#222; padding:10px; height:200px; overflow:auto; }
+.msg { margin:5px 0; }
+.admin { color:gold; }
